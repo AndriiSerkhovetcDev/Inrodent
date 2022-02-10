@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/global";
+@import "assets/variables";
+
+//.container {
+//  width: 1170px;
+//  margin: 0 auto;
+//}
+
+.btn {
+  display: inline-block;
+  color: $accent-color;
+  background-color: #fff;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
